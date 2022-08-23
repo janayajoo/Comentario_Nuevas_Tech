@@ -33,24 +33,6 @@ function PageTransitions(){
             element.classList.add('active');
         }
     })
-
-    //Toggle Theme
-    const themeBtn = document.querySelector('.theme-btn');
-    themeBtn.addEventListener('click', ()=>{
-        let element = document.body;
-        element.classList.toggle('light-mode')
-    })
-
-    //Nav-Menu
-    const list = document.querySelectorAll('.list');
-    function activeLink(){
-        list.forEach((item) =>
-        item.classList.remove('active-btn-test'));
-        this.classList.add('active-btn-test');
-    }
-    list.forEach((item)=>
-    item.addEventListener('click', activeLink));
-
 }
 
 

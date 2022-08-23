@@ -472,6 +472,10 @@ section {
   text-align: center;
 }
 
+.sec2 .imagenes img{
+  height: 70vh;
+  }
+
 .sec3 .imagenes{
   text-align: center;
 }
