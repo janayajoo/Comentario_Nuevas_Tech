@@ -8,6 +8,7 @@
 :root {
   --color-primary: #191d2b;
   --color-secondary: rgb(9, 50, 92);
+  --color-terciary: rgb(27, 99, 172);
   --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -490,7 +491,11 @@ height: 70vh;
 
 .sec4 .imagenes img{
   height: 70vh;
-  }
+}
+
+.sec4 a{
+  color: var(--color-terciary);
+}
 
 .about-container .left-about p {
   padding-left: 0;
